@@ -7,5 +7,6 @@ variable "region" {
 variable "env_name" {
   description = "AWS region"
   type        = string
+  default     = "dev"
 }
 
